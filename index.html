@@ -4,13 +4,115 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Project</title>
 </head>
 
 <body>
-    <header>
-
+    <header id="header">
+        <img src="https://s3.amazonaws.com/freecodecamp/original_trombones.png" id="header-img" alt="logo">
+        <nav id="nav-bar">
+            <a href="#features" class="nav-link">Features</a>
+            <a href="#works" class="nav-link">How it works</a>
+            <a href="#pricing" class="nav-link">Pricing</a>
+        </nav>
     </header>
+
+    <main>
+        <section id="heading">
+            <h1>Masterpieces are Here</h1>
+            <form action="https://www.freecodecamp.com/email-submit" id="form">
+                <input type="email" id="email" placeholder="Enter Your Email">
+                <input type="submit" placeholder="Submit" id="submit">
+            </form>      
+        </section>
+
+        <div id="features">
+            <div class="features-div">
+                <div class="content">
+                    <h2>Premium Materials</h2> <br>
+                    <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p> <br>
+                </div>
+            </div>
+    
+            <div class="features-div">
+                <div class="content">
+                    <h2>Fast Shipping</h2>
+                    <p>We make sure you recieve your trombone as soon as we have finished making it. <br>
+                    We also provide free returns if you are not satisfied.</p> <br>
+                </div>
+            </div>
+
+            <div class="features-div">
+                <div class="content">
+                    <h2>Quality Assurance</h2>
+                    <p>For every purchase you make, we will ensure there are no damages or faults and we will check and <br>
+                    test the pitch of your instrument.</p> <br>
+                </div>
+            </div>
+        </div>
+
+        <iframe src="https://www.youtube.com/embed/kHquFJlAKs0" id="video" height="400" width="600"></iframe>
+
+        <section id="products">
+            <div class="products-div">
+                <div class="product-header">
+                    <h2>Tenor Trombone</h2>
+                </div>
+                <div class="about-product">
+                    <p class="product-price">$600</p>
+                    <ol class="product-descr">
+                        <li>Lorem ipsum</li>
+                        <li>Lorem ipsum</li>
+                        <li>Lorem ipsum dolor</li>
+                        <li>Lorem ipsum</li>
+                    </ol>
+                </div>
+                <input type="button" value="SELECT" id="select">
+            </div>
+
+            <div class="products-div">
+                <div class="product-header">
+                    <h2>Bass Trombone</h2>
+                </div>
+                <div class="about-product">
+                    <p class="product-price">$900</p>
+                    <ol class="product-descr">
+                        <li>Lorem ipsum</li>
+                        <li>Lorem ipsum</li>
+                        <li>Lorem ipsum dolor</li>
+                        <li>Lorem ipsum</li>
+                    </ol>
+                </div>
+                <input type="button" value="SELECT" id="select">
+            </div>
+
+            <div class="products-div">
+                <div class="product-header">
+                    <h2>Valve Trombone</h2>
+                </div>
+                <div class="about-product">
+                    <p class="product-price">$1200</p>
+                    <ol class="product-descr">
+                        <li>Lorem ipsum</li>
+                        <li>Lorem ipsum</li>
+                        <li>Lorem ipsum dolor</li>
+                        <li>Lorem ipsum</li>
+                    </ol>
+                </div>
+                <input type="button" value="SELECT" id="select">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <nav>
+            <a href="">Privacy</a>
+            <a href="">Terms</a>
+            <a href="">Contact</a>
+        </nav>
+        <p>&copy;Copyright 2022, Original Product</p>
+    </footer>
 </body>
 
 </html>
